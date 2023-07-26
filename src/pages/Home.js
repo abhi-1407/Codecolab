@@ -39,8 +39,7 @@ const Home = () => {
             <div className="formWrapper">
                 <img
                     className="homePageLogo"
-                    src="/code-sync.png"
-                    alt="code-sync-logo"
+                    src="public/medium.png"
                 />
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
@@ -75,12 +74,6 @@ const Home = () => {
                     </span>
                 </div>
             </div>
-            <footer>
-                <h4>
-                    Built with 💛 &nbsp; by &nbsp;
-                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
-                </h4>
-            </footer>
         </div>
     );
 };
